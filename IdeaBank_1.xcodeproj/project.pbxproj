@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* IdeaBank_1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IdeaBank_1AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* IdeaBank_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* IdeaBank_1.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		83452E7513B6BD030041336A /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83452E7413B6BD030041336A /* ListViewController.xib */; };
+		83452E8313B9278B0041336A /* 15-tags.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E8213B9278B0041336A /* 15-tags.png */; };
+		83452E8513B927AB0041336A /* 187-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E8413B927AB0041336A /* 187-pencil.png */; };
+		83452E9413B927F10041336A /* 104-index-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E9313B927F10041336A /* 104-index-cards.png */; };
+		83452E9913B929050041336A /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E9813B929050041336A /* 06-magnify.png */; };
+		83452EE013B92D240041336A /* IdeaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83452EDE13B92D240041336A /* IdeaSearchViewController.m */; };
+		83452EE113B92D240041336A /* IdeaSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83452EDF13B92D240041336A /* IdeaSearchViewController.xib */; };
+		837215B913C22E46007DE2EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837215B813C22E46007DE2EB /* CoreLocation.framework */; };
+		837215C313C230CF007DE2EB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837215C213C230CF007DE2EB /* MapKit.framework */; };
+		838F477B13A1C02400C30357 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 838F477813A1C02300C30357 /* Tag.m */; };
+		838F477C13A1C02400C30357 /* Idea.m in Sources */ = {isa = PBXBuildFile; fileRef = 838F477A13A1C02400C30357 /* Idea.m */; };
+		839044D813A6ED64005E6D84 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 839044D713A6ED64005E6D84 /* README */; };
+		83A6C85413A7F973004390CC /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A6C85313A7F973004390CC /* ListViewController.m */; };
+		83AA4A8113B2EB53003CC084 /* NewIdeaTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4A7F13B2EB53003CC084 /* NewIdeaTextViewController.m */; };
+		83AA4A8213B2EB53003CC084 /* NewIdeaTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AA4A8013B2EB53003CC084 /* NewIdeaTextViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* IdeaBank_1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdeaBank_1AppDelegate.h; path = Classes/IdeaBank_1AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IdeaBank_1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IdeaBank_1AppDelegate.m; path = Classes/IdeaBank_1AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* IdeaBank_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdeaBank_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* IdeaBank_1.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = IdeaBank_1.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* IdeaBank_1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaBank_1_Prefix.pch; sourceTree = "<group>"; };
+		83452E7413B6BD030041336A /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		83452E8213B9278B0041336A /* 15-tags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15-tags.png"; path = "../../../Downloads/glyphish-icons/icons/15-tags.png"; sourceTree = SOURCE_ROOT; };
+		83452E8413B927AB0041336A /* 187-pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "187-pencil.png"; path = "../../../Downloads/glyphish-icons/icons/187-pencil.png"; sourceTree = SOURCE_ROOT; };
+		83452E9313B927F10041336A /* 104-index-cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "104-index-cards.png"; path = "../../../Downloads/glyphish-icons/icons/104-index-cards.png"; sourceTree = SOURCE_ROOT; };
+		83452E9813B929050041336A /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-magnify.png"; path = "../../../Downloads/glyphish-icons/icons/06-magnify.png"; sourceTree = SOURCE_ROOT; };
+		83452EDD13B92D240041336A /* IdeaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaSearchViewController.h; sourceTree = "<group>"; };
+		83452EDE13B92D240041336A /* IdeaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaSearchViewController.m; sourceTree = "<group>"; };
+		83452EDF13B92D240041336A /* IdeaSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IdeaSearchViewController.xib; sourceTree = "<group>"; };
+		837215B813C22E46007DE2EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		837215C213C230CF007DE2EB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		838F477713A1C02300C30357 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tag.h; path = ../Tag.h; sourceTree = "<group>"; };
+		838F477813A1C02300C30357 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tag.m; path = ../Tag.m; sourceTree = "<group>"; };
+		838F477913A1C02300C30357 /* Idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Idea.h; path = ../Idea.h; sourceTree = "<group>"; };
+		838F477A13A1C02400C30357 /* Idea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Idea.m; path = ../Idea.m; sourceTree = "<group>"; };
+		839044D713A6ED64005E6D84 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = Classes/README; sourceTree = "<group>"; };
+		83A6C85213A7F973004390CC /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = Classes/ListViewController.h; sourceTree = "<group>"; };
+		83A6C85313A7F973004390CC /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = Classes/ListViewController.m; sourceTree = "<group>"; };
+		83AA4A7E13B2EB53003CC084 /* NewIdeaTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewIdeaTextViewController.h; sourceTree = "<group>"; };
+		83AA4A7F13B2EB53003CC084 /* NewIdeaTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewIdeaTextViewController.m; sourceTree = "<group>"; };
+		83AA4A8013B2EB53003CC084 /* NewIdeaTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewIdeaTextViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* IdeaBank_1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IdeaBank_1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				837215B913C22E46007DE2EB /* CoreLocation.framework in Frameworks */,
+				837215C313C230CF007DE2EB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				838F477713A1C02300C30357 /* Tag.h */,
+				838F477813A1C02300C30357 /* Tag.m */,
+				838F477913A1C02300C30357 /* Idea.h */,
+				838F477A13A1C02400C30357 /* Idea.m */,
+			);
+			name = Model;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* IdeaBank_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				839044D713A6ED64005E6D84 /* README */,
+				83460AD213B2AFEA00D57FCB /* Views */,
+				83460AD113B2AFCB00D57FCB /* Classes */,
+				080E96DDFE201D6D7F000001 /* Model */,
+				83460AC513B2AEAD00D57FCB /* Controllers */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* IdeaBank_1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83452E9813B929050041336A /* 06-magnify.png */,
+				83452E9313B927F10041336A /* 104-index-cards.png */,
+				83452E8213B9278B0041336A /* 15-tags.png */,
+				83452E8413B927AB0041336A /* 187-pencil.png */,
+				2819305F112F816700ECF9B4 /* IdeaBank_1.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				83AA4A8013B2EB53003CC084 /* NewIdeaTextViewController.xib */,
+				83452EDF13B92D240041336A /* IdeaSearchViewController.xib */,
+				83452E7413B6BD030041336A /* ListViewController.xib */,
+				8D1107310486CEB800E47090 /* IdeaBank_1-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				837215B813C22E46007DE2EB /* CoreLocation.framework */,
+				837215C213C230CF007DE2EB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83460AC513B2AEAD00D57FCB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83AA4A7E13B2EB53003CC084 /* NewIdeaTextViewController.h */,
+				83AA4A7F13B2EB53003CC084 /* NewIdeaTextViewController.m */,
+				83A6C85213A7F973004390CC /* ListViewController.h */,
+				83A6C85313A7F973004390CC /* ListViewController.m */,
+				83452EDD13B92D240041336A /* IdeaSearchViewController.h */,
+				83452EDE13B92D240041336A /* IdeaSearchViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		83460AD113B2AFCB00D57FCB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* IdeaBank_1AppDelegate.h */,
+				1D3623250D0F684500981E51 /* IdeaBank_1AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		83460AD213B2AFEA00D57FCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* IdeaBank_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IdeaBank_1" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdeaBank_1;
+			productName = IdeaBank_1;
+			productReference = 1D6058910D05DD3D006BFB54 /* IdeaBank_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IdeaBank_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* IdeaBank_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				839044D813A6ED64005E6D84 /* README in Resources */,
+				83AA4A8213B2EB53003CC084 /* NewIdeaTextViewController.xib in Resources */,
+				83452E7513B6BD030041336A /* ListViewController.xib in Resources */,
+				83452E8313B9278B0041336A /* 15-tags.png in Resources */,
+				83452E8513B927AB0041336A /* 187-pencil.png in Resources */,
+				83452E9413B927F10041336A /* 104-index-cards.png in Resources */,
+				83452E9913B929050041336A /* 06-magnify.png in Resources */,
+				83452EE113B92D240041336A /* IdeaSearchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* IdeaBank_1AppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* IdeaBank_1.xcdatamodeld in Sources */,
+				838F477B13A1C02400C30357 /* Tag.m in Sources */,
+				838F477C13A1C02400C30357 /* Idea.m in Sources */,
+				83A6C85413A7F973004390CC /* ListViewController.m in Sources */,
+				83AA4A8113B2EB53003CC084 /* NewIdeaTextViewController.m in Sources */,
+				83452EE013B92D240041336A /* IdeaSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IdeaBank_1_Prefix.pch;
+				INFOPLIST_FILE = "IdeaBank_1-Info.plist";
+				PRODUCT_NAME = IdeaBank_1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IdeaBank_1_Prefix.pch;
+				INFOPLIST_FILE = "IdeaBank_1-Info.plist";
+				PRODUCT_NAME = IdeaBank_1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IdeaBank_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IdeaBank_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* IdeaBank_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* IdeaBank_1.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* IdeaBank_1.xcdatamodel */;
+			path = IdeaBank_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

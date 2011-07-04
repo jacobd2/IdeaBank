@@ -1,0 +1,977 @@
+TIdeaBank_1
+v7
+r0
+t331425340.085373
+cCheck dependencies
+cProcessInfoPlistFile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/Info.plist IdeaBank_1-Info.plist
+cCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/IdeaBank_1.app/README Classes/README
+cCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.xib
+cCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListViewController.xib
+cCpResource build/Debug-iphonesimulator/IdeaBank_1.app/15-tags.png ../../../Downloads/glyphish-icons/icons/15-tags.png
+cCpResource build/Debug-iphonesimulator/IdeaBank_1.app/187-pencil.png ../../../Downloads/glyphish-icons/icons/187-pencil.png
+cCpResource build/Debug-iphonesimulator/IdeaBank_1.app/104-index-cards.png ../../../Downloads/glyphish-icons/icons/104-index-cards.png
+cCpResource build/Debug-iphonesimulator/IdeaBank_1.app/06-magnify.png ../../../Downloads/glyphish-icons/icons/06-magnify.png
+cCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.xib
+cProcessPCH /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch.gch IdeaBank_1_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1.momd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld
+cCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/main.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaBank_1AppDelegate.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Tag.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Tag.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Idea.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NewIdeaTextViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaSearchViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1 normal i386
+cGenerateDSYMFile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app.dSYM /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1
+cTouch /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D54D02800000000001D6EC0
+t1297403944
+s1928896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D01A000000000000046B
+t1297403930
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/06-magnify.png
+c000000004CB8B4CA0000000000000CAB
+t1287173322
+s3243
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/104-index-cards.png
+c000000004CB8B4CE0000000000000B4F
+t1287173326
+s2895
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/15-tags.png
+c000000004CB8B4D80000000000000C8C
+t1287173336
+s3212
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/187-pencil.png
+c000000004CBBFA700000000000000122
+t1287387760
+s290
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Classes/IdeaTextViewController.m
+c000000004DF833F90000000000000AB6
+t1308111865
+s2742
+i"IdeaTextViewController.h"
+i"Idea.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Classes/ListViewController.m
+c000000004DF8374100000000000016B2
+t1308112705
+s5810
+i"ListViewController.h"
+i"CoreData/CoreData.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.h
+c000000004DF6C2DF0000000000000888
+t1308017375
+s2184
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"Tag.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.m
+c000000004DF6C2DF00000000000006D1
+t1308017375
+s1745
+i"Idea.h"
+i"Tag.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../List.m
+c000000004DF6CE8D0000000000000595
+t1308020365
+s1429
+i"List.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../ListController.m
+c000000004DF6CE8D0000000000000595
+t1308020365
+s1429
+i"List.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.h
+c000000004DF6C2E000000000000006D5
+t1308017376
+s1749
+i<Foundation/Foundation.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m
+c000000004DF6C2E00000000000000677
+t1308017376
+s1655
+i"TableView.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableViewController.m
+c000000004DF6CE8D0000000000000595
+t1308020365
+s1429
+i"List.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Tag.m
+c000000004E067D7D000000000000068A
+t1309048189
+s1674
+i"Tag.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.h
+c000000004E0D006B0000000000000A58
+t1309474923
+s2648
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"NewIdeaTextViewController.h"
+i"ListViewController.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m
+c000000004E0CF43000000000000024DF
+t1309471792
+s9439
+i"IdeaBank_1AppDelegate.h"
+i"Idea.h"
+i"ListViewController.h"
+i"NewIdeaTextViewController.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.h
+c000000004E0294820000000000000269
+t1308791938
+s617
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m
+c000000004E0295000000000000000BA6
+t1308792064
+s2982
+i"IdeaTextViewController.h"
+i"Idea.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.h
+c000000004E0963700000000000000171
+t1309238128
+s369
+i<UIKit/UIKit.h>
+i"IdeaBank_1AppDelegate.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m
+c000000004E09667D00000000000019AA
+t1309238909
+s6570
+i"ListViewController.h"
+i"CoreData/CoreData.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/READ ME
+c000000004DF6B5E40000000000000000
+t1308014052
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/README
+c000000004DF6C2E0000000000000075B
+t1308017376
+s1883
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableView.h
+c000000004DF7BDDA00000000000000EE
+t1308081626
+s238
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableView.m
+c000000004DF7BDDA00000000000012AD
+t1308081626
+s4781
+i"TableView.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.h
+c000000004DF7C1BC0000000000000102
+t1308082620
+s258
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m
+c000000004DF7C1BC00000000000012CB
+t1308082620
+s4811
+i"TableViewController.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Idea.h
+c000000004DF6C2DF0000000000000888
+t1308017375
+s2184
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"Tag.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld
+c000000004E06858E0000000000000088
+t1309050254
+s136
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld/ListViewController.xib
+c000000004E0685830000000000001643
+t1309050243
+s5699
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld/NewIdeaTextViewController.xib
+c000000004E02B5390000000000006C14
+t1308800313
+s27668
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1_Prefix.pch
+c000000004DF82CAC00000000000007AB
+t1308109996
+s1963
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaListViewController.h
+c000000004E02B5800000000000000103
+t1308800384
+s259
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaListViewController.m
+c000000004E02B58000000000000005CB
+t1308800384
+s1483
+i"IdeaListViewController.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaListViewController.xib
+c000000004E02B580000000000000187D
+t1308800384
+s6269
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.h
+c000000004E08F5A40000000000000107
+t1309210020
+s263
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.m
+c000000004E08F5A400000000000005D1
+t1309210020
+s1489
+i"IdeaSearchViewController.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.xib
+c000000004E08F6B20000000000003F14
+t1309210290
+s16148
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.h
+c000000004DF6CE8D00000000000000DF
+t1308020365
+s223
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.m
+c000000004DF6CE8D0000000000000595
+t1308020365
+s1429
+i"List.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.xib
+c000000004DF6CE8D0000000000001847
+t1308020365
+s6215
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListView.xib
+c000000004E0682030000000000001643
+t1309049347
+s5699
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListViewController.xib
+c000000004E0C8F2F0000000000004542
+t1309445935
+s17730
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib
+c000000004E09625B0000000000009A9B
+t1309237851
+s39579
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MyRootViewController.h
+c000000004E0278BA00000000000000FF
+t1308784826
+s255
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MyRootViewController.m
+c000000004E0278BA000000000000063D
+t1308784826
+s1597
+i"MyRootViewController.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NavigationController.h
+c000000004E0278A400000000000000FF
+t1308784804
+s255
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NavigationController.m
+c000000004E0278A4000000000000063D
+t1308784804
+s1597
+i"NavigationController.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.h
+c000000004E0D0C0F0000000000000342
+t1309477903
+s834
+i<UIKit/UIKit.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m
+c000000004E10EDA40000000000000861
+t1309732260
+s2145
+i"NewIdeaTextViewController.h"
+i"Idea.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.xib
+c000000004E10EEAA0000000000007D31
+t1309732522
+s32049
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/TableView.h
+c000000004DF6C2E000000000000006D5
+t1308017376
+s1749
+i<Foundation/Foundation.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/TableView.m
+c000000004DF649EE00000000000000D4
+t1307986414
+s212
+i"TableView.h"
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/TableView.xib
+c000000004DF6CE8D0000000000001847
+t1308020365
+s6215
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Tag.h
+c000000004DF6C2E000000000000007F2
+t1308017376
+s2034
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app
+t1309732540
+s510
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app.dSYM
+t1309732540
+s102
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/06-magnify.png
+t1309732538
+s3243
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/104-index-cards.png
+t1309732538
+s2895
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/15-tags.png
+t1309732538
+s3212
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/187-pencil.png
+t1309732538
+s290
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1
+t1309732540
+s40016
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1.momd
+t1309732539
+s136
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaListViewController.nib
+t2
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaSearchViewController.nib
+t1309732538
+s1519
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/Info.plist
+t1309732538
+s603
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/List.nib
+t1308022189
+s1231
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/ListView.nib
+t2
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/ListViewController.nib
+t1309732538
+s1709
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/MainWindow.nib
+t1309732538
+s4479
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/NewIdeaTextViewController.nib
+t1309732538
+s4902
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/PkgInfo
+t1309732538
+s8
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/READ ME
+t2
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/README
+t1309732538
+s1883
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/TableView.nib
+t2
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Idea.o
+t1309732539
+s5356
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaBank_1.LinkFileList
+c000000004E10EEBA00000000000003F8
+t1309732538
+s1016
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaBank_1AppDelegate.o
+t1309732539
+s70840
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaListViewController.o
+t2
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaSearchViewController.o
+t1309732540
+s38208
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaTextViewController.o
+t1308792064
+s50376
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/List.o
+t1308022189
+s37808
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListController.o
+t2
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListViewController.o
+t1309732539
+s59040
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/MyRootViewController.o
+t1308791946
+s38124
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NavigationController.o
+t1308791946
+s38124
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NewIdeaTextViewController.o
+t1309732540
+s62732
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableView.o
+t1308017900
+s10532
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableViewController.o
+t2
+s0
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Tag.o
+t1309732539
+s5236
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/main.o
+t1309732539
+s6324
+
+N/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/main.m
+c000000004DF6C2E0000000000000071B
+t1308017376
+s1819
+i<UIKit/UIKit.h>
+
+N/var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch.gch
+t1309732539
+s16679120
+
+N/var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-gxotqxfaodenycdfhpqowswryzfu/IdeaBank_1_Prefix.pch.gch
+t1308109998
+s16679120
+
+NIdeaBank_1-Info.plist
+c000000004DF1861D000000000000038D
+t1307674141
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331425338#331425338#0(0"0(0#1#0"8613361152#0"0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Idea.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425339.910298
+e331425339.958764
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Idea.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.m331425339#331425339#0(0"0(0#0#63"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.m8615085984#2062"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Idea.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Idea.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaBank_1AppDelegate.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425339.858368
+e331425339.963955
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaBank_1AppDelegate.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m: In function '-[IdeaBank_1AppDelegate saveContext]':
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m:106: warning: local declaration of 'managedObjectContext' hides instance variable
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m:107: warning: local declaration of 'managedObjectContext' hides instance variable
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m:107: warning: local declaration of 'managedObjectContext' hides instance variable
+lSLF07#2@85"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m331425339#331425339#0(611"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m: In function '-[IdeaBank_1AppDelegate saveContext]':/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m:106: warning: local declaration of 'managedObjectContext' hides instance variable/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m:107: warning: local declaration of 'managedObjectContext' hides instance variable/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m:107: warning: local declaration of 'managedObjectContext' hides instance variable3(22@67"Local declaration of 'managedObjectContext' hides instance variable331425339#131#160#0(6@77"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m331164592#106#0#106#0#0"0(22@67"Local declaration of 'managedObjectContext' hides instance variable331425339#291#160#0(6@77"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m331164592#107#0#107#0#0"0(22@67"Local declaration of 'managedObjectContext' hides instance variable331425339#451#160#0(6@77"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m331164592#107#0#107#0#0"0(0#0#77"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m8613590880#2093"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaBank_1AppDelegate.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaBank_1AppDelegate.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaListViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaSearchViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425339.958886
+e331425340.029668
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaSearchViewController.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.m331425339#331425340#0(0"0(0#0#72"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.m8613060128#2091"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaSearchViewController.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaTextViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Classes/IdeaTextViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaTextViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330484864.786993
+e330484864.894667
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaTextViewController.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m: In function '-[IdeaTextViewController savePushed]':
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:21: warning: '-managedObjectContext' not found in protocol(s)
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:23: warning: '-managedObjectContext' not found in protocol(s)
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m: In function '-[IdeaTextViewController savePushedBody]':
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:31: warning: '-managedObjectContext' not found in protocol(s)
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:33: warning: '-managedObjectContext' not found in protocol(s)
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m: At top level:
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:102: warning: incomplete implementation of class 'IdeaTextViewController'
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:102: warning: method definition for '-printBody' not found
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:102: warning: method definition for '-printIdeas' not found
+lSLF07#2@86"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#330484864#0(1356"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m: In function '-[IdeaTextViewController savePushed]':/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:21: warning: '-managedObjectContext' not found in protocol(s)/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:23: warning: '-managedObjectContext' not found in protocol(s)/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m: In function '-[IdeaTextViewController savePushedBody]':/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:31: warning: '-managedObjectContext' not found in protocol(s)/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:33: warning: '-managedObjectContext' not found in protocol(s)/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m: At top level:/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:102: warning: incomplete implementation of class 'IdeaTextViewController'/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:102: warning: method definition for '-printBody' not found/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m:102: warning: method definition for '-printIdeas' not found8(22@48"'-managedObjectContext' not found in protocol(s)330484864#132#141#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#21#0#21#0#28"'*' not found in protocol(s)0(22@48"'-managedObjectContext' not found in protocol(s)330484864#273#141#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#23#0#23#0#28"'*' not found in protocol(s)0(22@48"'-managedObjectContext' not found in protocol(s)330484864#550#141#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#31#0#31#0#28"'*' not found in protocol(s)0(22@48"'-managedObjectContext' not found in protocol(s)330484864#691#141#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#33#0#33#0#28"'*' not found in protocol(s)0(23@13"At top level:330484864#832#94#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#0#0#0#0#0"0(22@59"Incomplete implementation of class 'IdeaTextViewController'330484864#926#153#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#102#0#102#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-printBody' not found330484864#1079#138#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#102#0#102#0#35"method definition for '*' not found0(22@45"Method definition for '-printIdeas' not found330484864#1217#139#0(6@78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m330484864#102#0#102#0#35"method definition for '*' not found0(0#0#78"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m8619648480#2095"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/IdeaTextViewController.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaTextViewController.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/List.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../List.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329714989.775047
+e329714989.824505
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/List.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../List.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../List.m329714989#329714989#0(0"0(0#0#63"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../List.m8650191200#2062"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-gxotqxfaodenycdfhpqowswryzfu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../List.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/List.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/List.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../ListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Classes/ListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425339.911534
+e331425339.999070
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListViewController.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m: In function '-[ListViewController managedObjectContext]':
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m:217: warning: '-managedObjectContext' not found in protocol(s)
+lSLF07#2@82"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m331425339#331425340#0(272"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m: In function '-[ListViewController managedObjectContext]':/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m:217: warning: '-managedObjectContext' not found in protocol(s)1(22@48"'-managedObjectContext' not found in protocol(s)331425339#134#138#0(6@74"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m330931709#217#0#217#0#28"'*' not found in protocol(s)0(0#0#74"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m8614387360#2087"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/ListViewController.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/ListViewController.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/MyRootViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MyRootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330484746.495506
+e330484746.589741
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/MyRootViewController.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MyRootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MyRootViewController.m330484746#330484746#0(0"0(0#0#68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MyRootViewController.m8604169120#2083"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MyRootViewController.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/MyRootViewController.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NavigationController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NavigationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330484746.377203
+e330484746.555173
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NavigationController.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NavigationController.m330484746#330484746#0(0"0(0#0#68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NavigationController.m8602151008#2083"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NavigationController.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NavigationController.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NewIdeaTextViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425339.952154
+e331425340.039470
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NewIdeaTextViewController.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m: In function '-[NewIdeaTextViewController savePushed:]':
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m:27: warning: '-managedObjectContext' not found in protocol(s)
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m:38: warning: '-managedObjectContext' not found in protocol(s)
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m:44: warning: '-managedObjectContext' not found in protocol(s)
+lSLF07#2@81"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m331425339#331425340#0(539"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m: In function '-[NewIdeaTextViewController savePushed:]':/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m:27: warning: '-managedObjectContext' not found in protocol(s)/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m:38: warning: '-managedObjectContext' not found in protocol(s)/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m:44: warning: '-managedObjectContext' not found in protocol(s)3(22@48"'-managedObjectContext' not found in protocol(s)331425339#131#136#0(6@73"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m331425060#27#0#27#0#28"'*' not found in protocol(s)0(22@48"'-managedObjectContext' not found in protocol(s)331425339#267#136#0(6@73"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m331425060#38#0#38#0#28"'*' not found in protocol(s)0(22@48"'-managedObjectContext' not found in protocol(s)331425339#403#136#0(6@73"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m331425060#44#0#44#0#28"'*' not found in protocol(s)0(0#0#73"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m8613636160#2093"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/NewIdeaTextViewController.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableView.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329710700.292088
+e329710700.339541
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableView.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: incomplete implementation of class 'TableView'
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: method definition for '-tableView:numberOfRowsInSection:' not found
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: class 'TableView' does not fully implement the 'UITableViewDataSource' protocol
+lSLF07#2@76"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m329710700#329710700#0(591"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: incomplete implementation of class 'TableView'/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: method definition for '-tableView:numberOfRowsInSection:' not found/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m:42: warning: class 'TableView' does not fully implement the 'UITableViewDataSource' protocol4(22@46"Incomplete implementation of class 'TableView'329710700#0#129#0(6@68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m329710176#42#0#42#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found329710700#129#150#0(6@68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m329710176#42#0#42#0#35"method definition for '*' not found0(22@67"Method definition for '-tableView:numberOfRowsInSection:' not found329710700#279#150#0(6@68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m329710176#42#0#42#0#35"method definition for '*' not found0(22@79"Class 'TableView' does not fully implement the 'UITableViewDataSource' protocol329710700#429#162#0(6@68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m329710176#42#0#42#0#51"class '*' does not fully implement the '*' protocol0(0#0#68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m8659084160#2072"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-gxotqxfaodenycdfhpqowswryzfu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableView.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableView.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableView.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableView.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/TableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../TableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableViewController.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329775324.557504
+e329775324.598189
+r0
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableViewController.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:21: error: expected '{' before 'implementation'
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:22: warning: '@end' missing in implementation context
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:22: error: reimplementation of class 'TableViewController'
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m: In function '-[TableViewController numberOfSectionsInTableView:]':
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:91: error: expected expression before '<' token
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:92: warning: control reaches end of non-void function
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m: In function '-[TableViewController tableView:numberOfRowsInSection:]':
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:97: error: expected expression before '<' token
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:98: warning: control reaches end of non-void function
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m: At top level:
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'words' requires method '-words' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'words' requires the method 'setWords:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'sections' requires method '-sections' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'sections' requires the method 'setSections:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@83"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#329775324#0(2142"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:21: error: expected '{' before 'implementation'/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:22: warning: '@end' missing in implementation context/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:22: error: reimplementation of class 'TableViewController'/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m: In function '-[TableViewController numberOfSectionsInTableView:]':/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:91: error: expected expression before '<' token/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:92: warning: control reaches end of non-void function/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m: In function '-[TableViewController tableView:numberOfRowsInSection:]':/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:97: error: expected expression before '<' token/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:98: warning: control reaches end of non-void function/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m: At top level:/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'words' requires method '-words' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'words' requires the method 'setWords:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'sections' requires method '-sections' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m:193: warning: property 'sections' requires the method 'setSections:' to be defined - use @synthesize, @dynamic or provide a method implementation12(4@36"Expected '{' before 'implementation'329775324#0#124#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#21#0#21#0#19"expected * before *0(22@40"'@end' missing in implementation context329775324#124#130#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#22#0#22#0#40"'@end' missing in implementation context0(4@47"Reimplementation of class 'TableViewController'329775324#254#135#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#22#0#22#0#0"0(4@36"Expected expression before '<' token329775324#533#124#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#91#0#91#0#19"expected * before *0(22@40"Control reaches end of non-void function329775324#657#130#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#92#0#92#0#40"control reaches end of non-void function0(4@36"Expected expression before '<' token329775324#935#124#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#97#0#97#0#19"expected * before *0(22@40"Control reaches end of non-void function329775324#1059#130#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#98#0#98#0#40"control reaches end of non-void function0(23@13"At top level:329775324#1189#91#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#0#0#0#0#0"0(22@118"Property 'words' requires method '-words' to be defined - use @synthesize, @dynamic or provide a method implementation329775324#1280#209#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#193#0#193#0#0"0(22@125"Property 'words' requires the method 'setWords:' to be defined - use @synthesize, @dynamic or provide a method implementation329775324#1489#216#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#193#0#193#0#0"0(22@124"Property 'sections' requires method '-sections' to be defined - use @synthesize, @dynamic or provide a method implementation329775324#1705#215#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#193#0#193#0#0"0(22@131"Property 'sections' requires the method 'setSections:' to be defined - use @synthesize, @dynamic or provide a method implementation329775324#1920#222#0(6@75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m329775324#193#0#193#0#0"0(0#0#75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m8593470304#2089"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-gxotqxfaodenycdfhpqowswryzfu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/TableViewController.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/TableViewController.o1#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Tag.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Tag.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425339.859820
+e331425339.911416
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Tag.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Tag.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Tag.m331425339#331425339#0(0"0(0#0#62"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Tag.m8613232928#2060"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/../Tag.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Tag.o0#
+
+CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/main.o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425339.856989
+e331425339.910111
+r1
+xCompileC
+xbuild/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/main.o
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/main.m331425339#331425339#0(0"0(0#0#52"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/main.m8613919680#2051"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -include /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/main.m -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld/ListViewController.xib
+r0
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld/NewIdeaTextViewController.xib
+r0
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaListViewController.xib
+r0
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.xib
+s331425338.456904
+e331425338.901958
+r1
+xCompileXIB
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.xib
+lSLF07#2@39"CompileXIB IdeaSearchViewController.xib331425338#331425338#0(0"0(0#0#74"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.xib8604753792#622"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaSearchViewController.nib /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaSearchViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.xib
+s329714989.438487
+e329714989.773661
+r1
+xCompileXIB
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.xib
+lSLF07#2@19"CompileXIB List.xib329714989#329714989#0(0"0(0#0#54"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.xib8658078112#582"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/List.nib /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/List.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListView.xib
+r0
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListViewController.xib
+s331425338.401074
+e331425338.856744
+r1
+xCompileXIB
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListViewController.xib
+lSLF07#2@33"CompileXIB ListViewController.xib331425338#331425338#0(0"0(0#0#68"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListViewController.xib8601064960#610"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/ListViewController.nib /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/ListViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib
+s331425338.399034
+e331425338.896010
+r1
+xCompileXIB
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib:77: warning: 'List View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.
+lSLF07#2@25"CompileXIB MainWindow.xib331425338#331425338#0(226"/* com.apple.ibtool.document.warnings *//Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib:77: warning: 'List View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.1(22@110"'List View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.331425338#18446744073709551615#0#0(6@60"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib330930651#77#0#77#0#0"0(0#0#60"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib8610788672#594"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/MainWindow.nib /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.xib
+s331425338.400409
+e331425338.888073
+r1
+xCompileXIB
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.xib
+lSLF07#2@40"CompileXIB NewIdeaTextViewController.xib331425338#331425338#0(0"0(0#0#75"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.xib8602991328#624"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/NewIdeaTextViewController.nib /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/NewIdeaTextViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/TableView.xib
+r0
+
+CCpResource "build/Debug-iphonesimulator/IdeaBank_1.app/READ ME" "Classes/READ ME"
+r0
+
+CCpResource build/Debug-iphonesimulator/IdeaBank_1.app/06-magnify.png ../../../Downloads/glyphish-icons/icons/06-magnify.png
+s331425338.455037
+e331425338.471865
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IdeaBank_1.app/06-magnify.png
+x../../../Downloads/glyphish-icons/icons/06-magnify.png
+lSLF07#2@59"Copy ../../../Downloads/glyphish-icons/icons/06-magnify.png331425338#331425338#0(0"0(0#0#100"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/06-magnify.png8610946912#536"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/06-magnify.png /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app0#
+
+CCpResource build/Debug-iphonesimulator/IdeaBank_1.app/104-index-cards.png ../../../Downloads/glyphish-icons/icons/104-index-cards.png
+s331425338.453178
+e331425338.466768
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IdeaBank_1.app/104-index-cards.png
+x../../../Downloads/glyphish-icons/icons/104-index-cards.png
+lSLF07#2@64"Copy ../../../Downloads/glyphish-icons/icons/104-index-cards.png331425338#331425338#0(0"0(0#0#105"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/104-index-cards.png8611529504#541"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/104-index-cards.png /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app0#
+
+CCpResource build/Debug-iphonesimulator/IdeaBank_1.app/15-tags.png ../../../Downloads/glyphish-icons/icons/15-tags.png
+s331425338.450370
+e331425338.459074
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IdeaBank_1.app/15-tags.png
+x../../../Downloads/glyphish-icons/icons/15-tags.png
+lSLF07#2@56"Copy ../../../Downloads/glyphish-icons/icons/15-tags.png331425338#331425338#0(0"0(0#0#97"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/15-tags.png8596006976#533"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/15-tags.png /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app0#
+
+CCpResource build/Debug-iphonesimulator/IdeaBank_1.app/187-pencil.png ../../../Downloads/glyphish-icons/icons/187-pencil.png
+s331425338.451305
+e331425338.464232
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IdeaBank_1.app/187-pencil.png
+x../../../Downloads/glyphish-icons/icons/187-pencil.png
+lSLF07#2@59"Copy ../../../Downloads/glyphish-icons/icons/187-pencil.png331425338#331425338#0(0"0(0#0#100"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/187-pencil.png8602850240#536"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/../../../Downloads/glyphish-icons/icons/187-pencil.png /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app0#
+
+CCpResource build/Debug-iphonesimulator/IdeaBank_1.app/README Classes/README
+s331425338.399665
+e331425338.450274
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IdeaBank_1.app/README
+xClasses/README
+lSLF07#2@19"Copy Classes/README331425338#331425338#0(0"0(0#0#60"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/README8605233536#496"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/Classes/README /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app0#
+
+CDataModelVersionCompile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1.momd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld
+s331425339.855652
+e331425339.952030
+r1
+xDataModelVersionCompile
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1.momd
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld
+lSLF07#2@106"DataModelVersionCompile build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1.momd IdeaBank_1.xcdatamodeld331425339#331425339#0(0"0(0#0#69"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld8614276512#416"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1.xcdatamodeld /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1.momd0#
+
+CGenerateDSYMFile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app.dSYM /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1
+s331425340.064148
+e331425340.083066
+r1
+xGenerateDSYMFile
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app.dSYM
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/IdeaBank_1.app.dSYM build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1331425340#331425340#0(0"0(0#0#99"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_18603193792#413"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1 -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app.dSYM0#
+
+CLd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1 normal i386
+s331425340.039622
+e331425340.064069
+r1
+xLd
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1
+xnormal
+xi386
+lSLF07#2@104"Link /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_1331425340#331425340#0(0"0(0#0#0"8610846336#970"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -filelist /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/IdeaBank_1.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/IdeaBank_10#
+
+CProcessInfoPlistFile /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/Info.plist IdeaBank_1-Info.plist
+s331425338.395509
+e331425338.398963
+r1
+xProcessInfoPlistFile
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/Info.plist
+xIdeaBank_1-Info.plist
+lSLF07#2@29"Process IdeaBank_1-Info.plist331425338#331425338#0(0"0(0#0#67"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1-Info.plist8611514944#509"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IdeaBank_1-Info.plist -genpkginfo /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app/Info.plist0#
+
+CProcessPCH /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch.gch IdeaBank_1_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s331425338.902050
+e331425339.855485
+r1
+xProcessPCH
+x/var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch.gch
+xIdeaBank_1_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile IdeaBank_1_Prefix.pch331425338#331425339#0(0"0(0#0#67"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1_Prefix.pch8611552064#1933"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1_Prefix.pch -o /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-aoyzixwsohpufwedkueaizcizdpu/IdeaBank_1_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-gxotqxfaodenycdfhpqowswryzfu/IdeaBank_1_Prefix.pch.gch IdeaBank_1_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329802796.572072
+e329802798.657549
+r1
+xProcessPCH
+x/var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-gxotqxfaodenycdfhpqowswryzfu/IdeaBank_1_Prefix.pch.gch
+xIdeaBank_1_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile IdeaBank_1_Prefix.pch329802796#329802798#0(0"0(0#0#67"/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1_Prefix.pch8623963296#1933"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-generated-files.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-own-target-headers.hmap -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-all-target-headers.hmap -iquote /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/IdeaBank_1-project-headers.hmap -F/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/include -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources/i386 -I/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/DerivedSources -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/IdeaBank_1_Prefix.pch -o /var/folders/t6/t6ia22Q6EkuhfibhBLp-d++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IdeaBank_1_Prefix-gxotqxfaodenycdfhpqowswryzfu/IdeaBank_1_Prefix.pch.gch0#
+
+CTouch /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app
+s331425340.083165
+e331425340.085337
+r1
+xTouch
+x/Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app
+lSLF07#2@94"Touch /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app331425340#331425340#0(0"0(0#0#0"8615723200#295"    cd /Users/dinajacobsen/Documents/RCOS/IdeaBank_1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dinajacobsen/Documents/RCOS/IdeaBank_1/build/Debug-iphonesimulator/IdeaBank_1.app0#
+
