@@ -321,8 +321,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 331495730;
-			PBXWorkspaceStateSaveDate = 331495730;
+			PBXPerProjectTemplateStateSaveDate = 332192644;
+			PBXWorkspaceStateSaveDate = 332192644;
 		};
 		perUserProjectItems = {
 			83452E8813B927AF0041336A = 83452E8813B927AF0041336A /* PBXTextBookmark */;
@@ -332,6 +332,9 @@
 			83460ADB13B2B09900D57FCB = 83460ADB13B2B09900D57FCB /* PBXTextBookmark */;
 			836FB88313BD3883003FC1C4 = 836FB88313BD3883003FC1C4 /* PBXTextBookmark */;
 			836FB88513BD3883003FC1C4 = 836FB88513BD3883003FC1C4 /* PBXTextBookmark */;
+			8371F2A613CCDC36008C8F47 /* PBXTextBookmark */ = 8371F2A613CCDC36008C8F47 /* PBXTextBookmark */;
+			8371F2A713CCDC36008C8F47 /* PBXTextBookmark */ = 8371F2A713CCDC36008C8F47 /* PBXTextBookmark */;
+			8371F2A813CCDC36008C8F47 /* PBXTextBookmark */ = 8371F2A813CCDC36008C8F47 /* PBXTextBookmark */;
 			837215CC13C23141007DE2EB = 837215CC13C23141007DE2EB /* PBXTextBookmark */;
 			8372160113C23512007DE2EB = 8372160113C23512007DE2EB /* PBXTextBookmark */;
 			8372160213C23512007DE2EB = 8372160213C23512007DE2EB /* PBXTextBookmark */;
@@ -383,6 +386,20 @@
 			sepNavVisRange = "{442, 1452}";
 		};
 	};
+	83452E8213B9278B0041336A /* 15-tags.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "15-tags.png";
+		path = "/Users/Downloads/glyphish-icons/icons/15-tags.png";
+		sourceTree = "<absolute>";
+	};
+	83452E8413B927AB0041336A /* 187-pencil.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "187-pencil.png";
+		path = "/Users/Downloads/glyphish-icons/icons/187-pencil.png";
+		sourceTree = "<absolute>";
+	};
 	83452E8813B927AF0041336A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 838F477813A1C02300C30357 /* Tag.m */;
@@ -397,9 +414,23 @@
 		isa = PBXBookmark;
 		fRef = 83452E8213B9278B0041336A /* 15-tags.png */;
 	};
+	83452E9313B927F10041336A /* 104-index-cards.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "104-index-cards.png";
+		path = "/Users/Downloads/glyphish-icons/icons/104-index-cards.png";
+		sourceTree = "<absolute>";
+	};
 	83452E9513B9282E0041336A /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 83452E8413B927AB0041336A /* 187-pencil.png */;
+	};
+	83452E9813B929050041336A /* 06-magnify.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "06-magnify.png";
+		path = "/Users/Downloads/glyphish-icons/icons/06-magnify.png";
+		sourceTree = "<absolute>";
 	};
 	83452EDD13B92D240041336A /* IdeaSearchViewController.h */ = {
 		uiCtxt = {
@@ -455,6 +486,36 @@
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 8904;
+	};
+	8371F2A613CCDC36008C8F47 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83AA4A7F13B2EB53003CC084 /* NewIdeaTextViewController.m */;
+		name = "NewIdeaTextViewController.m: 53";
+		rLen = 0;
+		rLoc = 1466;
+		rType = 0;
+		vrLen = 1224;
+		vrLoc = 716;
+	};
+	8371F2A713CCDC36008C8F47 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83A6C85313A7F973004390CC /* ListViewController.m */;
+		name = "ListViewController.m: 129";
+		rLen = 0;
+		rLoc = 4254;
+		rType = 0;
+		vrLen = 1404;
+		vrLoc = 3152;
+	};
+	8371F2A813CCDC36008C8F47 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83A6C85313A7F973004390CC /* ListViewController.m */;
+		name = "ListViewController.m: 108";
+		rLen = 0;
+		rLoc = 3111;
+		rType = 0;
+		vrLen = 1437;
+		vrLoc = 2907;
 	};
 	837215CC13C23141007DE2EB /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -882,10 +943,10 @@
 	};
 	83A6C85313A7F973004390CC /* ListViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5616, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5667, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5717, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6753}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1069, 2847}}";
-			sepNavSelRange = "{3947, 0}";
-			sepNavVisRange = "{0, 881}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5921, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5972, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{6022, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 7058}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {895, 2886}}";
+			sepNavSelRange = "{3111, 0}";
+			sepNavVisRange = "{2907, 1437}";
 		};
 	};
 	83AA4A7E13B2EB53003CC084 /* NewIdeaTextViewController.h */ = {
@@ -897,9 +958,9 @@
 	};
 	83AA4A7F13B2EB53003CC084 /* NewIdeaTextViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {895, 2002}}";
+			sepNavIntBoundsRect = "{{0, 0}, {895, 1937}}";
 			sepNavSelRange = "{1466, 0}";
-			sepNavVisRange = "{0, 913}";
+			sepNavVisRange = "{716, 1224}";
 			sepNavWindowFrame = "{{15, 231}, {439, 542}}";
 		};
 	};
@@ -1002,7 +1063,7 @@
 		fRef = 83A6C85313A7F973004390CC /* ListViewController.m */;
 		name = "ListViewController.m: 129";
 		rLen = 0;
-		rLoc = 3947;
+		rLoc = 4254;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 3328;

@@ -16,10 +16,6 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		83452E7513B6BD030041336A /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83452E7413B6BD030041336A /* ListViewController.xib */; };
-		83452E8313B9278B0041336A /* 15-tags.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E8213B9278B0041336A /* 15-tags.png */; };
-		83452E8513B927AB0041336A /* 187-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E8413B927AB0041336A /* 187-pencil.png */; };
-		83452E9413B927F10041336A /* 104-index-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E9313B927F10041336A /* 104-index-cards.png */; };
-		83452E9913B929050041336A /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 83452E9813B929050041336A /* 06-magnify.png */; };
 		83452EE013B92D240041336A /* IdeaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83452EDE13B92D240041336A /* IdeaSearchViewController.m */; };
 		83452EE113B92D240041336A /* IdeaSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83452EDF13B92D240041336A /* IdeaSearchViewController.xib */; };
 		837215B913C22E46007DE2EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837215B813C22E46007DE2EB /* CoreLocation.framework */; };
@@ -45,10 +41,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* IdeaBank_1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaBank_1_Prefix.pch; sourceTree = "<group>"; };
 		83452E7413B6BD030041336A /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
-		83452E8213B9278B0041336A /* 15-tags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15-tags.png"; path = "../../../Downloads/glyphish-icons/icons/15-tags.png"; sourceTree = SOURCE_ROOT; };
-		83452E8413B927AB0041336A /* 187-pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "187-pencil.png"; path = "../../../Downloads/glyphish-icons/icons/187-pencil.png"; sourceTree = SOURCE_ROOT; };
-		83452E9313B927F10041336A /* 104-index-cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "104-index-cards.png"; path = "../../../Downloads/glyphish-icons/icons/104-index-cards.png"; sourceTree = SOURCE_ROOT; };
-		83452E9813B929050041336A /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-magnify.png"; path = "../../../Downloads/glyphish-icons/icons/06-magnify.png"; sourceTree = SOURCE_ROOT; };
 		83452EDD13B92D240041336A /* IdeaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaSearchViewController.h; sourceTree = "<group>"; };
 		83452EDE13B92D240041336A /* IdeaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaSearchViewController.m; sourceTree = "<group>"; };
 		83452EDF13B92D240041336A /* IdeaSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IdeaSearchViewController.xib; sourceTree = "<group>"; };
@@ -132,10 +124,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				83452E9813B929050041336A /* 06-magnify.png */,
-				83452E9313B927F10041336A /* 104-index-cards.png */,
-				83452E8213B9278B0041336A /* 15-tags.png */,
-				83452E8413B927AB0041336A /* 187-pencil.png */,
 				2819305F112F816700ECF9B4 /* IdeaBank_1.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				83AA4A8013B2EB53003CC084 /* NewIdeaTextViewController.xib */,
@@ -241,10 +229,6 @@
 				839044D813A6ED64005E6D84 /* README in Resources */,
 				83AA4A8213B2EB53003CC084 /* NewIdeaTextViewController.xib in Resources */,
 				83452E7513B6BD030041336A /* ListViewController.xib in Resources */,
-				83452E8313B9278B0041336A /* 15-tags.png in Resources */,
-				83452E8513B927AB0041336A /* 187-pencil.png in Resources */,
-				83452E9413B927F10041336A /* 104-index-cards.png in Resources */,
-				83452E9913B929050041336A /* 06-magnify.png in Resources */,
 				83452EE113B92D240041336A /* IdeaSearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

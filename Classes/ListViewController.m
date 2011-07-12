@@ -105,7 +105,7 @@
     
     UITableViewCell *cell = [[self tableView] dequeueReusableCellWithIdentifier:@"ideaCell"];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ideaCell"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"ideaCell"];
     }
     
 	// Core Data query 
@@ -118,16 +118,22 @@
 	NSPredicate* predicate = [NSPredicate predicateWithFormat:@"title != nil"];
 	[request setPredicate:predicate];
 	
+	NSPredicate* predicateTextBody = [NSPredicate predicateWithFormat:@"textBody != nil"];
+	[request setPredicate:predicate];
+	
 	NSSortDescriptor* sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"title" ascending:YES];
 	[request setSortDescriptors:[NSArray arrayWithObject: sortDescriptor]];
 	[sortDescriptor release];
 	
 	NSArray* array = [[self managedObjectContext] executeFetchRequest:request error:nil];
 	
+	NSArray* arrayTextBody = [[self managedObjectContext] executeFetchRequest:request error:nil];
+	
 	
     // Configure the cell...
     cell.textLabel.text = [[array objectAtIndex:indexPath.row] title];
-	//cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	cell.detailTextLabel.text = [[arrayTextBody objectAtIndex:indexPath.row]textBody];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	
     return cell;
 }
