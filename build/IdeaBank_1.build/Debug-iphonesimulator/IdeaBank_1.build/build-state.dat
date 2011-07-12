@@ -1,7 +1,7 @@
 TIdeaBank_1
 v7
 r0
-t332192821.925604
+t332193268.630927
 cCheck dependencies
 cProcessInfoPlistFile /Users/dinajacobsen/Desktop/IdeaBank/build/Debug-iphonesimulator/IdeaBank_1.app/Info.plist IdeaBank_1-Info.plist
 cCompileXIB /Users/dinajacobsen/Desktop/IdeaBank/MainWindow.xib
@@ -833,7 +833,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies332192821#332192821#0(0"0(0#1#0"8611180576#0"0#
+lSLF07#2@18"Check dependencies332193268#332193268#0(0"0(0#1#0"8605938848#0"0#
 
 CCompileC build/IdeaBank_1.build/Debug-iphonesimulator/IdeaBank_1.build/Objects-normal/i386/Idea.o /Users/dinajacobsen/Desktop/IdeaBank/Classes/../Idea.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332192695.020899

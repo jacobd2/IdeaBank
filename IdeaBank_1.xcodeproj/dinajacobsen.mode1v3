@@ -303,7 +303,7 @@
 							<real>302</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>48 113 1280 665 0 0 1280 778 </string>
+						<string>-5 -428 1280 665 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -333,7 +333,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8371F2A813CCDC36008C8F47</string>
+										<string>8371F2B213CCDD85008C8F47</string>
 										<key>history</key>
 										<array>
 											<string>8390437013A55A63005E6D84</string>
@@ -380,7 +380,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {956, 530}}</string>
 								<key>RubberWindowFrame</key>
-								<string>48 113 1280 665 0 0 1280 778 </string>
+								<string>-5 -428 1280 665 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -400,7 +400,7 @@
 								<key>Frame</key>
 								<string>{{0, 535}, {956, 89}}</string>
 								<key>RubberWindowFrame</key>
-								<string>48 113 1280 665 0 0 1280 778 </string>
+								<string>-5 -428 1280 665 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -570,7 +570,7 @@
 		<string>/Users/dinajacobsen/Desktop/IdeaBank/IdeaBank_1.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>48 113 1280 665 0 0 1280 778 </string>
+	<string>-5 -428 1280 665 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
