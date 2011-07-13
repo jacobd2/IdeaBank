@@ -11,11 +11,16 @@
 
 @interface ListViewController : UITableViewController <UITabBarControllerDelegate> {
 	IBOutlet UITableView *passthroughTableView;
-
+	IBOutlet UITableViewCell *cell0;
+	
 }
 
 -(NSManagedObjectContext*)managedObjectContext;
 
+
+@property (nonatomic, retain) IBOutlet UITableViewCell *cell0;
 @property (nonatomic, retain) IBOutlet UITableView *passthroughTableView;
+
+
 
 @end
