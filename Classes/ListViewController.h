@@ -9,14 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "IdeaBank_1AppDelegate.h"
 
-@interface ListViewController : UITableViewController <UITabBarControllerDelegate> {
+@interface ListViewController : UITableViewController <UITabBarControllerDelegate, UINavigationControllerDelegate, UITableViewDataSource,UITableViewDelegate> {
 	IBOutlet UITableView *passthroughTableView;
 	IBOutlet UITableViewCell *cell0;
-	
+	NSManagedObjectContext *managedObjectContext;
 }
 
 -(NSManagedObjectContext*)managedObjectContext;
-
+- (IBAction)tagsButtonPressed:(id)sender;
+- (IBAction)locationButtonPressed:(id)sender;
+- (IBAction)dateButtonPressed:(id)sender;
 
 @property (nonatomic, retain) IBOutlet UITableViewCell *cell0;
 @property (nonatomic, retain) IBOutlet UITableView *passthroughTableView;

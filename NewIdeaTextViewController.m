@@ -32,7 +32,7 @@
 {
 	[super viewDidLoad];
 	[labelDate setText:[[NSDate  date] descriptionWithCalendarFormat:@"%m/%d '%y %H:%M" timeZone:nil locale:nil]];
-
+	self.navigationController.navigationBarHidden = YES;
 }
 
 -(IBAction)savePushed: (id) sender

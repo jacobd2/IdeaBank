@@ -1,15 +1,18 @@
 //
-//  IdeaSearchViewController.m
+//  IdeaTextDetailViewController.m
 //  IdeaBank_1
 //
-//  Created by Dina Jacobsen on 6/27/11.
+//  Created by Dina Jacobsen on 7/13/11.
 //  Copyright 2011 Rensselaer Polytechnic Institute. All rights reserved.
 //
 
-#import "IdeaSearchViewController.h"
+#import "IdeaTextDetailViewController.h"
 
 
-@implementation IdeaSearchViewController
+
+@implementation IdeaTextDetailViewController
+
+
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 
@@ -22,10 +25,24 @@
 }
 
 
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	self.navigationController.navigationBar.barStyle = UIBarStyleBlack;  
+    self.navigationController.navigationBar.translucent = YES;
+	
+	UIBarButtonItem *backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"back to idea list" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+	self.navigationItem.leftBarButtonItem = backBarButtonItem;
+	
+	//[backBarButtonItem addTarget:nil action:nil 
+	 //forControlEvents:UIControlEventTouchUpInside];
+	
+//	[backButton release];
 }
+
+//- (void)setBackBarButtonItem:(UIBarButtonItem *)backBarButtonItem animated:(BOOL)animated{
+//}
 
 
 /*

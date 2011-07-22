@@ -37,19 +37,21 @@
 
 @class ListViewController;
 
-@interface IdeaBank_1AppDelegate : NSObject <UIApplicationDelegate, UITabBarDelegate> 
+@interface IdeaBank_1AppDelegate : NSObject <UIApplicationDelegate, UITabBarDelegate, UINavigationControllerDelegate> 
 {
     IBOutlet UIWindow *window;
     IBOutlet UITabBarController *rootController;
 	IBOutlet ListViewController *listViewController;
 	IBOutlet NewIdeaTextViewController *newIdeaTextViewController;
-	
+	IBOutlet UIViewController *IdeaTextDetailViewController;
+	IBOutlet UINavigationController *navigationController;
 
     NSManagedObjectContext *managedObjectContext_;
     NSManagedObjectModel *managedObjectModel_;
     NSPersistentStoreCoordinator *persistentStoreCoordinator_;
 }
-
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, retain) IBOutlet UIViewController *IdeaTextDetailViewController;
 @property (nonatomic, retain) IBOutlet UITabBarController *rootController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;

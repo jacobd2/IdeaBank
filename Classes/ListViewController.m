@@ -8,11 +8,14 @@
 
 #import "ListViewController.h"
 #import "CoreData/CoreData.h"
+#import "IdeaTextDetailViewController.h"
+
 
 @implementation ListViewController
 
 @synthesize passthroughTableView = tableView;
 @synthesize IBOutlet cell0;
+
 
 #pragma mark -
 #pragma mark Initialization
@@ -33,14 +36,15 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+	self.navigationController.navigationBarHidden = YES;
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 - (void)viewWillAppear:(BOOL)animated {
 	[[self tableView] setSeparatorStyle:UITableViewCellSeparatorStyleSingleLine];
@@ -109,11 +113,9 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"ideaCell"];
     }
     
-	if (indexPath.row == 0)	{
+	if(indexPath.row == 0) {
 		return cell0;
 	}
-	
-	
 	
 	// Core Data query 
 	
@@ -123,9 +125,6 @@
 	[request setEntity:entityDescription];
 	
 	NSPredicate* predicate = [NSPredicate predicateWithFormat:@"title != nil"];
-	[request setPredicate:predicate];
-	
-	NSPredicate* predicateTextBody = [NSPredicate predicateWithFormat:@"textBody != nil"];
 	[request setPredicate:predicate];
 	
 	NSSortDescriptor* sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"title" ascending:YES];
@@ -145,8 +144,6 @@
     return cell;
 }
 
-
-
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return NO if you do not want the specified item to be editable.
@@ -154,23 +151,18 @@
 }
 
 
-
 // Override to support editing the table view.
 
 - (void)tableView:(UITableView*)tableView willBeginEditingRowAtIndexPath:(NSIndexPath *)indexPath {
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
+- (void)tableView:(UITableView *)tView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source.
-        NSInteger row = [indexPath row];
-		[self removeObjectAtIndex:row];
-		[self reloadData];
-    }   	
-}
 
-
+			}
+	}
 
 
 /*
@@ -191,18 +183,34 @@
 
 #pragma mark -
 #pragma mark Table view delegate
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
+	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
+	// Navigation logic may go here. Create and push another view controller.
     
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+   IdeaTextDetailViewController *ideaTextDetailViewController = [[IdeaTextDetailViewController alloc] initWithNibName:@"ideaTextDetailViewController" bundle:nil];
      // ...
-     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    
-}
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController: ideaTextDetailViewController];
+    [self presentModalViewController: navigationController animated: YES];
+    //[ideaTextDetailViewController release];
+	
+	//to push the UIView.
+	[self.navigationController pushViewController:ideaTextDetailViewController animated:YES];
+    [ideaTextDetailViewController release]; 
+	// Pass the selected object to the new view controller.
+   	
+	
+	/*CityGuideDelegate *delegate = (CityGuideDelegate *)[[UIApplication sharedApplication] delegate]; 
+	CityController *city = [[CityController alloc] init]; 
+	[delegate.navController pushViewController:city animated:YES]; 
+	[city release];  */
+	[passthroughTableView deselectRowAtIndexPath:indexPath animated:YES];
+	
+	
+	}  
 
+	 
 
 #pragma mark -
 #pragma mark Memory management
@@ -233,6 +241,56 @@
 -(NSManagedObjectContext*)managedObjectContext
 {
 	return [[[UIApplication sharedApplication] delegate] managedObjectContext];
+}
+
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+	NSMutableArray *tempArray = [[NSMutableArray alloc] init];
+	[tempArray addObject:@"A"];
+	[tempArray addObject:@"B"];
+	[tempArray addObject:@"C"];
+	[tempArray addObject:@"D"];
+	[tempArray addObject:@"E"];
+	[tempArray addObject:@"F"];
+	[tempArray addObject:@"G"];
+	[tempArray addObject:@"H"];
+	[tempArray addObject:@"I"];
+	[tempArray addObject:@"J"];
+	[tempArray addObject:@"K"];
+	[tempArray addObject:@"L"];
+	[tempArray addObject:@"M"];
+	[tempArray addObject:@"N"];
+	[tempArray addObject:@"O"];
+	[tempArray addObject:@"P"];
+	[tempArray addObject:@"Q"];
+	[tempArray addObject:@"R"];
+	[tempArray addObject:@"S"];
+	[tempArray addObject:@"T"];
+	[tempArray addObject:@"U"];
+	[tempArray addObject:@"V"];
+	[tempArray addObject:@"w"];
+	[tempArray addObject:@"X"];
+	[tempArray addObject:@"Y"];
+	[tempArray addObject:@"Z"];
+	[tempArray addObject:@"Æ"];
+	[tempArray addObject:@"Ø"];
+	[tempArray addObject:@"Å"];
+
+	return tempArray;
+}
+	
+- (IBAction)tagsButtonPressed:(id)sender{
+	
+	[[self tableView] reloadData];
+}
+
+- (IBAction)locationButtonPressed:(id)sender{
+	
+	[[self tableView] reloadData];
+}
+
+- (IBAction)dateButtonPressed:(id)sender{
+	
+	[[self tableView] reloadData];
 }
 
 @end

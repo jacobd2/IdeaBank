@@ -15,6 +15,8 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		832167CA13CE91A800F7040F /* IdeaTextDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832167C813CE91A800F7040F /* IdeaTextDetailViewController.m */; };
+		832167CB13CE91A800F7040F /* IdeaTextDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832167C913CE91A800F7040F /* IdeaTextDetailViewController.xib */; };
 		83452E7513B6BD030041336A /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83452E7413B6BD030041336A /* ListViewController.xib */; };
 		83452EE013B92D240041336A /* IdeaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83452EDE13B92D240041336A /* IdeaSearchViewController.m */; };
 		83452EE113B92D240041336A /* IdeaSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83452EDF13B92D240041336A /* IdeaSearchViewController.xib */; };
@@ -31,7 +33,7 @@
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* IdeaBank_1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdeaBank_1AppDelegate.h; path = Classes/IdeaBank_1AppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* IdeaBank_1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IdeaBank_1AppDelegate.m; path = Classes/IdeaBank_1AppDelegate.m; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IdeaBank_1AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = IdeaBank_1AppDelegate.m; path = Classes/IdeaBank_1AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* IdeaBank_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdeaBank_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,6 +42,9 @@
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* IdeaBank_1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaBank_1_Prefix.pch; sourceTree = "<group>"; };
+		832167C713CE91A800F7040F /* IdeaTextDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaTextDetailViewController.h; sourceTree = "<group>"; };
+		832167C813CE91A800F7040F /* IdeaTextDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaTextDetailViewController.m; sourceTree = "<group>"; };
+		832167C913CE91A800F7040F /* IdeaTextDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IdeaTextDetailViewController.xib; sourceTree = "<group>"; };
 		83452E7413B6BD030041336A /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		83452EDD13B92D240041336A /* IdeaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaSearchViewController.h; sourceTree = "<group>"; };
 		83452EDE13B92D240041336A /* IdeaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaSearchViewController.m; sourceTree = "<group>"; };
@@ -128,6 +133,7 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				83AA4A8013B2EB53003CC084 /* NewIdeaTextViewController.xib */,
 				83452EDF13B92D240041336A /* IdeaSearchViewController.xib */,
+				832167C913CE91A800F7040F /* IdeaTextDetailViewController.xib */,
 				83452E7413B6BD030041336A /* ListViewController.xib */,
 				8D1107310486CEB800E47090 /* IdeaBank_1-Info.plist */,
 			);
@@ -152,6 +158,8 @@
 			children = (
 				83AA4A7E13B2EB53003CC084 /* NewIdeaTextViewController.h */,
 				83AA4A7F13B2EB53003CC084 /* NewIdeaTextViewController.m */,
+				832167C713CE91A800F7040F /* IdeaTextDetailViewController.h */,
+				832167C813CE91A800F7040F /* IdeaTextDetailViewController.m */,
 				83A6C85213A7F973004390CC /* ListViewController.h */,
 				83A6C85313A7F973004390CC /* ListViewController.m */,
 				83452EDD13B92D240041336A /* IdeaSearchViewController.h */,
@@ -230,6 +238,7 @@
 				83AA4A8213B2EB53003CC084 /* NewIdeaTextViewController.xib in Resources */,
 				83452E7513B6BD030041336A /* ListViewController.xib in Resources */,
 				83452EE113B92D240041336A /* IdeaSearchViewController.xib in Resources */,
+				832167CB13CE91A800F7040F /* IdeaTextDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +257,7 @@
 				83A6C85413A7F973004390CC /* ListViewController.m in Sources */,
 				83AA4A8113B2EB53003CC084 /* NewIdeaTextViewController.m in Sources */,
 				83452EE013B92D240041336A /* IdeaSearchViewController.m in Sources */,
+				832167CA13CE91A800F7040F /* IdeaTextDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

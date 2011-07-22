@@ -35,6 +35,7 @@
 #import "Idea.h"
 #import "ListViewController.h"
 #import "NewIdeaTextViewController.h"
+#import "IdeaTextDetailViewController.h"
 
 @implementation IdeaBank_1AppDelegate
 
@@ -43,7 +44,8 @@
 @synthesize managedObjectModel;
 @synthesize persistentStoreCoordinator;
 @synthesize rootController;
-
+@synthesize IdeaTextDetailViewController;
+@synthesize navigationController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -52,11 +54,15 @@
     
     // Override point for customization after application launch
 	
-	[window addSubview:rootController.view];
-	[self.window makeKeyAndVisible];
+    [self.window addSubview:navigationController.view]; 
+	[self.window addSubview:rootController.view];
 	
+    // Don't bother releasing navigationController as it needs to be around all the time  
+	
+    [self.window makeKeyAndVisible];  
+	
+    return YES; 
 
-	return YES;
 }
 
 
